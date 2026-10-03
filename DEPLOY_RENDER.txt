@@ -1,0 +1,18 @@
+HOANG MOD BACKEND - RENDER
+
+QUAN TRONG: ZIP NAY DA DAT package.json + server.js O THU MUC GOC.
+Khong dat Root Directory = ug.
+
+Render:
+Build Command: npm install
+Start Command: npm start
+Health Check: /api/health
+
+Environment:
+ADMIN_EMAIL=...
+ADMIN_PASSWORD=...
+ADMIN_USERNAME=admin
+
+Sau khi deploy, kiem tra:
+https://hoang-mod-backend.onrender.com/
+https://hoang-mod-backend.onrender.com/api/health
